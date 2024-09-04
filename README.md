@@ -1,9 +1,9 @@
-# html-freebie-triple-p
-Website Template Name: Triple P (Pixel Perfect Portfolio)
+Echoes is a free template created by Nicola Tolin 
 
-Description: Pixel Perfect Portfolio is a modern and elegant One-Page HTML template. The template is built using technologies such as Bootstrap 3+, jQuery, SASS, Gulp &amp; Bower. It's perfectly suitable for freelancers, designers &amp; all kind of artists who want to show off their work.  
+www.nicolatolin.com
 
-Version: 1
-Author: Pixel Perfect Team
-Author URI: http://pixelperfect.mk/
-Keywords: HTML, CSS, Bootstrap, Responsive, Javascript, jQuery, Parallax, Portfolio, CV, Resume
+Echoes  is based on the Bootstrap framework (http://getbootstrap.com/) created by Mark Otto(https://twitter.com/mdo) and Jacob Thorton(https://twitter.com/fat).
+
+Copyright and License
+
+Copyright 2016 Nicola Tolin. Code released under the Apache 2.0 license.
