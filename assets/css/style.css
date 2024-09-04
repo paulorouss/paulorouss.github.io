@@ -432,7 +432,7 @@ html, body {
   position: relative;
   background-size: cover;
 }
-
+/*
 .background-overlay:before {
   content: '';
   background-color: rgba(0, 0, 0, 0.5);
@@ -442,7 +442,7 @@ html, body {
   top: 0;
   left: 0;
   z-index: 0;
-}
+}*/
 
 .hero-content {
   color: #ffffff;
