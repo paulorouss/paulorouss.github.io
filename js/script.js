@@ -63,7 +63,7 @@ var shuffleme = (function( $ ) {
     });
 
     // Get all images inside shuffle
-    $grid.find('img').each(function() {
+   $grid.find('img').each(function() {
       var proxyImage;
 
       // Image already loaded
@@ -84,7 +84,7 @@ var shuffleme = (function( $ ) {
     setTimeout(function() {
       debouncedLayout();
     }, 500);
-  };      
+  };    
 
   return {
     init: init
