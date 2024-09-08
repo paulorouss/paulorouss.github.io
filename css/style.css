@@ -530,3 +530,10 @@ a:visited {
     height: 100vh!important;
     object-fit: cover;
 }
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
