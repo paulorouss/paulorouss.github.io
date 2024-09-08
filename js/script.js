@@ -39,7 +39,7 @@ var shuffleme = (function( $ ) {
       e.preventDefault();
       var $this = $(this),
           isActive = $this.hasClass( 'active' ),
-          group = isActive ? 'all' : $this.data('group');
+          group = isActive ? 'people' : $this.data('group');
 
       // Hide current label, show current label in title
       if ( !isActive ) {
