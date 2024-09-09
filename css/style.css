@@ -537,3 +537,12 @@ a:visited {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
+.texto_footer{
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 550px;
+   height: 16px;
+}
