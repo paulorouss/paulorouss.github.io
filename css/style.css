@@ -548,3 +548,11 @@ a:visited {
    height: 16px;
 }
 
+.titulo{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    
+}
