@@ -1,71 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background: #222;
-            color: white;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        .proyecto {
-            background: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-        }
-        footer {
-            background: #222;
-            color: white;
-            padding: 10px 0;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Data & IA - Tu Nombre</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; background: #f7f9fc; }
+    h1 { text-align: center; }
+    section { margin-bottom: 40px; }
+    a { color: #007acc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .project { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Portafolio</h1>
-        <p>Desarrollador Web | Creador de Proyectos</p>
-    </header>
-
-    <section>
-        <h2>Sobre mí</h2>
-        <p>Hola, soy [Tu Nombre]. Me apasiona la programación y el diseño web. Aquí encontrarás algunos de mis proyectos.</p>
-    </section>
-
-    <section>
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-            <h3>Proyecto 1</h3>
-            <p>Descripción breve de tu proyecto.</p>
-        </div>
-        <div class="proyecto">
-            <h3>Proyecto 2</h3>
-            <p>Descripción breve de tu proyecto.</p>
-        </div>
-    </section>
-
-    <footer>
-        &copy; 2025 Mi Portafolio | Diseñado por mí
-    </footer>
+  <h1>Portafolio Data & IA - Tu Nombre</h1>
+  
+  <section>
+    <h2>Proyectos</h2>
+    
+    <div class="project">
+      <h3>Análisis Exploratorio de Datos (EDA)</h3>
+      <p>Exploración y visualización de datos COVID-19.</p>
+      <p><a href="https://github.com/tuusuario/eda-covid19" target="_blank">Código en GitHub</a> | 
+         <a href="https://colab.research.google.com/github/tuusuario/eda-covid19/blob/main/eda_covid19.ipynb" target="_blank">Demo en Google Colab</a></p>
+    </div>
+    
+    <div class="project">
+      <h3>Predicción de Precios de Viviendas</h3>
+      <p>Modelo de regresión para estimar precios inmobiliarios.</p>
+      <p><a href="https://github.com/tuusuario/ml-house-prices" target="_blank">Código en GitHub</a> | 
+         <a href="https://share.streamlit.io/tuusuario/ml-house-prices/app.py" target="_blank">Demo en Streamlit</a></p>
+    </div>
+    
+    <div class="project">
+      <h3>Análisis de Sentimiento en Tweets</h3>
+      <p>Clasificación básica de sentimientos positivos y negativos.</p>
+      <p><a href="https://github.com/tuusuario/nlp-sentiment" target="_blank">Código en GitHub</a></p>
+    </div>
+    
+    <div class="project">
+      <h3>Dashboard Interactivo con Streamlit</h3>
+      <p>Visualización interactiva de datos con filtros dinámicos.</p>
+      <p><a href="https://share.streamlit.io/tuusuario/dashboard-covid/app.py" target="_blank">Demo en Streamlit</a></p>
+    </div>
+    
+  </section>
+  
+  <footer style="text-align:center; font-size:0.9em; color:#666;">
+    © 2025 Tu Nombre - Portafolio Data & IA
+  </footer>
 </body>
 </html>
